@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.information{
+width:70%;
+height: 250px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 5%;
+box-shadow: 0 10px 10px black;
+}
+.information label{
+    margin: 10px 10px 5px 0px;
+
+}
+.information input{
+    margin: 0px 5px 10px 0px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 2px 1px;
+    outline: none;
+    width: 150%;
+}
+
+.information div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.information div:nth-child(1){
+    left: 5%;
+    top: 10%;
+}
+.information div:nth-child(3){
+    left: 50%;
+    top: 40%;
+}
+.information div:nth-child(2){
+    left: 5%;
+    top: 40%;
+}
+.information button{
+    position: absolute;
+    left:5%;
+    bottom: 10%;
+    font-size: 12px;
+    padding: 8px 25px;
+    background-color: rgb(250, 10, 102);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.title{
+    width: 200%;
+}
+.search{
+    width: 70%;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    box-shadow: 0 10px 10px black;
+
+}
+.search input{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 15px;
+}
+input:focus{
+    border-bottom: 2px solid rgb(250, 10, 102);
+}
+.search div{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.search button{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 12px;
+    background-color: rgb(250, 10, 102);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 25px;
+}
+.search label{
+    margin-bottom: 10px;
+}
+.result{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    width: 70%;
+    box-shadow: 0 10px 10px black;
+    display: none;
+}
+.result.visible{
+    display: block;
+}
+.result ul{
+padding: 5px 0px 10px 10px;
+list-style: none;
+}
+.result ul li{
+    font-size: 20px;
+    color: rgb(250, 10, 102);
+    margin-top: 10px;
+    
+}
